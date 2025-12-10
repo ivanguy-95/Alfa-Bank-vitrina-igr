@@ -1376,3 +1376,18 @@ a {
   border-color: #ff3b30;
   box-shadow: 0 6px 14px rgba(255, 59, 48, 0.35);
 }
+/* Центрирование иконки в модальном окне */
+.confirm-avatar {
+  display: flex;
+  align-items: center;     /* вертикально */
+  justify-content: center; /* горизонтально */
+  margin: 16px auto 12px;  /* центрируем блок и даем отступы сверху/снизу */
+}
+
+/* На всякий случай — фикс размера картинки */
+.confirm-avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
