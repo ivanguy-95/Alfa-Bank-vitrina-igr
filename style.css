@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -451,10 +452,10 @@ a {
   }
   
   .steam-logo {
-    width: 72px;
-    height: 72px;
-    border-radius: 20px;
-    background: radial-gradient(circle at 0 0, #3fc0ff 0, #0051d6 40%, #001532 100%);
+  width: 72px;
+  height: 72px;
+  border-radius: 20px;
+  background: #ffffff;  
   }
   
   .steam-product-text {
@@ -1391,3 +1392,4 @@ a {
   border-radius: 50%;
   object-fit: cover;
 }
+
